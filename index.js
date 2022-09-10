@@ -5,6 +5,8 @@ const routes = require('./config/routes')
 
 const app = express()
 
+console.log("Ola");
+
 app.use(morgan('dev'))
 app.use(express.urlencoded({ extended: true}))
 app.use(express.json())
